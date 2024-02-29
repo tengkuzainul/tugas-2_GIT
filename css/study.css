@@ -1,0 +1,79 @@
+body {
+  background-color: #fefbf6;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://e7.pngegg.com/pngimages/758/386/png-clipart-simple-white-honeycomb-pattern-background-white-polygon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-welcome {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  background-image: linear-gradient(
+    to right,
+    blue,
+    red,
+    navy,
+    #ff0303,
+    red,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 0;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+fieldset {
+  border: 1px solid red;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+fieldset legend {
+  background-image: linear-gradient(to right, red, aqua, blue, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-family: "Poppins", monospace;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+thead tr th {
+  background-color: #201658;
+  color: #fefbf6;
+}
+
+tbody tr th:hover {
+  background-color: #a1a09e;
+}
+
+tbody tr td:hover {
+  background-color: #a1a09e;
+}
+
+tr th {
+  color: #201658;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+tr td {
+  color: #201658;
+  font-family: "poppins", sans-serif;
+}

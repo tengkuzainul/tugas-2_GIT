@@ -1,0 +1,55 @@
+body {
+  background-color: #fefbf6;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://e7.pngegg.com/pngimages/758/386/png-clipart-simple-white-honeycomb-pattern-background-white-polygon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-welcome {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  background-image: linear-gradient(
+    to right,
+    blue,
+    red,
+    navy,
+    #ff0303,
+    red,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 0;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.scrolling-images {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-images img {
+  display: inline-block;
+  margin-right: 20px;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(600%);
+  }
+  100% {
+    transform: translatex(-300%);
+  }
+}
+
+.left {
+  animation-direction: reverse;
+}

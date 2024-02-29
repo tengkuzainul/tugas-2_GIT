@@ -1,0 +1,39 @@
+fieldset legend {
+  background-image: linear-gradient(to right, red, aqua, blue, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-family: "Poppins", monospace;
+  font-weight: 600;
+  text-align: center;
+}
+
+fieldset {
+  border: 1px solid #ff0303;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.social-media div {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+
+.social-media a {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+}
+
+.social-media a:hover {
+  background-color: #ddd;
+}

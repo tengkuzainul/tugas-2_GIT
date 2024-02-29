@@ -1,0 +1,36 @@
+fieldset legend {
+  background-image: linear-gradient(to right, red, aqua, blue, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-family: "Poppins", monospace;
+  font-weight: 600;
+}
+
+fieldset {
+  border: 1px solid #ff0303;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #0c359e;
+  font-size: 15px;
+}
+
+li a:hover {
+  color: #6e099e;
+  border-bottom: 1px solid #6e099e;
+  border-top: 1px solid #6e099e;
+}

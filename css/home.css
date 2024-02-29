@@ -1,0 +1,145 @@
+body {
+  background-color: #fefbf6;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url(https://e7.pngegg.com/pngimages/758/386/png-clipart-simple-white-honeycomb-pattern-background-white-polygon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: bottom center;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.text-welcome {
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  background-image: linear-gradient(
+    to right,
+    blue,
+    red,
+    navy,
+    #ff0303,
+    red,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 0;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.hero-section {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  line-height: 1.5;
+  /* color: #3652ad; */
+}
+
+.img-hero {
+  width: 250px;
+  padding: 15px;
+  border-radius: 20%;
+  box-shadow: 2px 2px rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.marquee {
+  font-family: "Poppins", monospace;
+  font-size: 20px;
+  background-image: linear-gradient(
+    to right,
+    blue,
+    red,
+    navy,
+    #ff0303,
+    red,
+    red
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+fieldset {
+  border: 3px solid #ff0303;
+  border-radius: 25px;
+}
+
+fieldset legend {
+  background-image: linear-gradient(to right, red, aqua, blue, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-family: "Poppins", monospace;
+  font-weight: 600;
+}
+
+ol li p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  gap: 250px;
+}
+
+#atas {
+  text-align: right;
+}
+
+#bawah {
+  text-align: right;
+}
+
+.atas {
+  color: #ff0303;
+  font-weight: bolder;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.atas:hover {
+  color: #840606;
+  border: 1px solid #840606;
+}
+
+.bawah {
+  color: #ff0303;
+  font-weight: bolder;
+  border: 1px solid red;
+  padding: 5px;
+  border-radius: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.bawah:hover {
+  color: #840606;
+  border: 1px solid #840606;
+}
